@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  Case
+//
+//  Created by 栗子 on 2018/3/26.
+//  Copyright © 2018年 http://www.cnblogs.com/Lrx-lizi/.     https://github.com/lrxlizi/. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#define LColor(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1.0f]
+
+#import <Masonry.h>
+#import "LEEAlert.h"//alert
+#import "ToolClass.h"//工具类
+#import "SDCycleScrollView.h"//轮播
+#import "PopoutClass.h"//弹框
+#import "FrameClass.h"//坐标
+
+#endif /* PrefixHeader_pch */

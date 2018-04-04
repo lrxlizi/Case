@@ -1,0 +1,90 @@
+//
+//  MySelfCardCollectionViewCell.m
+//  SportChina
+//
+//  Created by 栗子 on 2017/12/11.
+//  Copyright © 2017年 Beijing Sino Dance Culture Media Co.,Ltd. All rights reserved.
+//
+
+#import "MySelfCardCollectionViewCell.h"
+#import "YQSweepCardItem.h"
+#import "YQSweepCardView.h"
+#import "LWDPageControl.h"
+
+@interface MySelfCardCollectionViewCell()<YQSweepCardViewDataSource>
+
+@property (nonatomic,strong)LWDPageControl *pageControl;
+@property (nonatomic,strong)YQSweepCardItem *item;
+@property (nonatomic,strong)YQSweepCardView *yqCaraview;
+
+
+@end
+
+@implementation MySelfCardCollectionViewCell
+
+-(instancetype)initWithFrame:(CGRect)frame{
+    if ([super initWithFrame:frame]) {
+        [self addSubviews];
+    }
+    return self;
+    
+}
+-(void)addSubviews{
+    
+}
+-(void)setArray:(NSArray *)array{
+    _array = array;
+    YQSweepCardView *yqCaraview = [[YQSweepCardView alloc]initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+    [self addSubview:yqCaraview];
+    self.yqCaraview = yqCaraview;
+    yqCaraview.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    [yqCaraview registerNib:[UINib nibWithNibName:@"YQSweepCardItem" bundle:nil] forItemReuseIdentifier:@"B"];
+    yqCaraview.itemCount = array.count;
+    [yqCaraview reloadData];
+    yqCaraview.dataSource = self;
+    
+    self.pageControl = [[LWDPageControl alloc] initWithFrame:CGRectMake((self.frame.size.width-200)/2, self.frame.size.height-30, 200, 30) indicatorMargin:10.f indicatorWidth:5.f currentIndicatorWidth:10.f indicatorHeight:5];
+    self.pageControl.pageIndicatorColor = [UIColor colorWithRed:236/255.f green:236/255.f blue:236/255.f alpha:1.f];
+    self.pageControl.currentPageIndicatorColor = [UIColor whiteColor];
+    self.pageControl.currentPage = 0;
+    self.pageControl.numberOfPages = _array.count;
+    [self addSubview: self.pageControl];
+    yqCaraview.index = ^(NSInteger index) {
+        self.pageControl.currentPage = index;
+    };
+    yqCaraview.tapAct = ^(NSInteger index) {
+        NSDictionary *infoDict     = _array[self.pageControl.currentPage];
+        NSString *target = infoDict[@"schema"];
+        [TargetAnalytic  analysisSchema:target fromViewControll:[EncapsulationClass baseViewControllerView:self]];
+    };
+    
+}
+
+-(YQSweepCardItem *)sweepCardView:(YQSweepCardView *)sweepCardView itemForIndex:(NSInteger)index{
+    self.pageControl.numberOfPages = _array.count;
+   YQSweepCardItem *item = [sweepCardView dequeueReusableItemWithIdentifier:@"B"];
+    item.layer.cornerRadius = 5.0f;
+   item.clipsToBounds = YES;
+    self.item = item;
+    NSDictionary *infoDict     = _array[index];
+    NSString *isShowMore       = [NSString stringWithFormat:@"%@",infoDict[@"is_show"]];
+    if ([isShowMore intValue]==1) {
+        item.checkLB.hidden = NO;
+    }else{
+        item.checkLB.hidden = YES;
+    }
+    item.nameLB.text           = [NSString stringWithFormat:@"%@",infoDict[@"title"]];
+    item.numLB.text            = [NSString stringWithFormat:@"%@",infoDict[@"sn"]];
+    item.dateLB.text           = [NSString stringWithFormat:@"%@",infoDict[@"act_time"]];
+    NSString *dataImage        = [NSString stringWithFormat:@"%@",infoDict[@"dateImage"]];
+    item.dateIV.image          = [UIImage imageNamed:dataImage];
+    item.numIV.image           = [UIImage imageNamed:infoDict[@"numImage"]];
+    item.bgImageView.image     = [UIImage imageNamed:infoDict[@"image"]];
+    NSString *indexStr         = [NSString stringWithFormat:@"%ld",(long)index];
+    self.pageControl.currentPage =[indexStr integerValue];
+    return item;
+}
+
+
+
+@end
