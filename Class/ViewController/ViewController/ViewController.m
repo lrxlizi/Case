@@ -29,7 +29,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     
-    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview",@"collectionVIew卡片",@"测试masonry",@"宏测试"];
+    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview+弹框",@"collectionVIew卡片",@"测试masonry",@"宏测试"];
     
     UITableView *tableView     = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
     tableView.delegate         = self;
@@ -38,10 +38,9 @@
     tableView.backgroundColor  = [UIColor groupTableViewBackgroundColor];
     tableView.tableFooterView  = [UIView new];
   
-   
-    
     
 }
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.contentArr.count;
 }
@@ -62,7 +61,7 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row==0) {
-        [self btnClicekd];
+        [self select];
     }else if(indexPath.row==1){
         SetColletionViewSectionBCVC *set = [SetColletionViewSectionBCVC new];
         set.name                         = self.contentArr[indexPath.row];
@@ -85,7 +84,7 @@
     }
 }
 
--(void)btnClicekd{
+-(void)select{
     
     SystemMapViewScroller *mapView = [[SystemMapViewScroller alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     mapView.systemMapBlock = ^{

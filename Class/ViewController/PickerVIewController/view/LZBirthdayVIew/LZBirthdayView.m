@@ -62,6 +62,7 @@ static CGFloat MainScreenWidth = 0;
     
     _datePicker =  [[UIDatePicker alloc] initWithFrame:CGRectMake(0,50, MainScreenWidth, 180)];
     _datePicker.backgroundColor = [UIColor whiteColor];
+    _datePicker.locale = [[NSLocale alloc]initWithLocaleIdentifier:@"zh_CN"];
     [_datePicker setDate:[NSDate date] animated:YES];
     [_datePicker setMaximumDate:[NSDate date]];
     [_datePicker setDatePickerMode:UIDatePickerModeDate];
@@ -73,23 +74,24 @@ static CGFloat MainScreenWidth = 0;
     NSInteger monthToday = [componentsToday month];
     NSInteger dayToday = [componentsToday day];
     NSInteger yearToday = [componentsToday year];
-    NSString *birthday = [NSString stringWithFormat:@"%ld-%.2ld-%.2ld",yearToday-100,monthToday,dayToday];
+    NSString *birthday = [NSString stringWithFormat:@"%ld-%.2ld-%.2ld",(long)yearToday-100,(long)monthToday,(long)dayToday];
     [_datePicker setMinimumDate:[self.formatter dateFromString:birthday]];
     [_datePicker addTarget:self action:@selector(dateChange:) forControlEvents:UIControlEventValueChanged];
     [_containerView addSubview:_datePicker];
     
     [self addSubview:_containerView];
-    
+    __weak __typeof(self)weakSelf = self;
     [UIView animateWithDuration:0.2 delay:0.0 options:UIViewAnimationOptionCurveEaseIn animations:^{
-        _containerView.frame = CGRectMake(0, MainScreenHeight - 230, MainScreenWidth, 230);
+        weakSelf.containerView.frame = CGRectMake(0, MainScreenHeight - 230, MainScreenWidth, 230);
     } completion:^(BOOL finished) {
     }];
 }
 #pragma mark - 隐藏
 - (void)hideView
 {
+       __weak __typeof(self)weakSelf = self;
     [UIView animateWithDuration:0.2 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
-        _containerView.frame = CGRectMake(0, MainScreenHeight, MainScreenWidth, 230);
+        weakSelf.containerView.frame = CGRectMake(0, MainScreenHeight, MainScreenWidth, 230);
     } completion:^(BOOL finished) {
         if (finished) {
             [self removeFromSuperview];

@@ -57,7 +57,13 @@
 + (UIImage *)imageFromView: (UIView *) theView   atFrame:(CGRect)r;
 //判断是否为空
 + (BOOL)isNullOrNilWithObject:(id)object;
-
-
+//设置圆角
++(void)setViewRadius:(UIView *)view radius:(CGFloat)ra maskToBounds:(BOOL)mask;
+//设置圆角和边框
++(void)setViewRadiusAndBorder:(UIView *)view radius:(CGFloat)ra maskToBounds:(BOOL)mask borderColor:(UIColor *)color borderWidth:(CGFloat)width;
+//设置label属性
++(void)setLabelProperty:(UILabel *)label backgroundColor:(UIColor *)color textColor:(UIColor *)tColor textFont:(UIFont *)font textAlignment:(NSTextAlignment )alignment;
+//设置view阴影
++(void)setViewShodow:(UIView *)view shadowColor:(UIColor *)sColor shadowOffset:(CGSize)sSize shadowRadius:(CGFloat)ra shadowOpacity:(float)opacity;
 
 @end

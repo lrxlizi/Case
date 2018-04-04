@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <development version="8000" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -102,6 +101,21 @@
                     </state>
                     <connections>
                         <action selector="weightBtn:" destination="-1" eventType="touchUpInside" id="BXg-CB-Jki"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXN-89-Hxz">
+                    <rect key="frame" x="39" y="374" width="113" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.76842471577612548" blue="0.36735487146401069" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="上tip"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NB6-GO-Fyz">
+                    <rect key="frame" x="34" y="374" width="113" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.76842471580000005" blue="0.36735487150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="上tip"/>
+                    <connections>
+                        <action selector="tip:" destination="-1" eventType="touchUpInside" id="zgH-V7-E8P"/>
                     </connections>
                 </button>
             </subviews>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A373BDA2074ABEA001E0936 /* MacroTestVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */; };
+		6A373BDE2074B4B9001E0936 /* LZTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BDD2074B4B9001E0936 /* LZTipsView.m */; };
 		6A5117942069E93600E50939 /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5117932069E93600E50939 /* FocusViewController.m */; };
 		6A9975742068CC9000B512BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9975732068CC9000B512BC /* AppDelegate.m */; };
 		6A99757A2068CC9000B512BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9975782068CC9000B512BC /* Main.storyboard */; };
@@ -62,6 +63,8 @@
 		6A373BD62074A98D001E0936 /* Deviceinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deviceinfo.h; sourceTree = "<group>"; };
 		6A373BD82074ABEA001E0936 /* MacroTestVIewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroTestVIewController.h; sourceTree = "<group>"; };
 		6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroTestVIewController.m; sourceTree = "<group>"; };
+		6A373BDC2074B4B9001E0936 /* LZTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTipsView.h; sourceTree = "<group>"; };
+		6A373BDD2074B4B9001E0936 /* LZTipsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTipsView.m; sourceTree = "<group>"; };
 		6A5117922069E93600E50939 /* FocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FocusViewController.h; sourceTree = "<group>"; };
 		6A5117932069E93600E50939 /* FocusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusViewController.m; sourceTree = "<group>"; };
 		6A99756F2068CC9000B512BC /* Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Case.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +195,15 @@
 			path = MacroTestVIewController;
 			sourceTree = "<group>";
 		};
+		6A373BDB2074B461001E0936 /* LZTipsView */ = {
+			isa = PBXGroup;
+			children = (
+				6A373BDC2074B4B9001E0936 /* LZTipsView.h */,
+				6A373BDD2074B4B9001E0936 /* LZTipsView.m */,
+			);
+			path = LZTipsView;
+			sourceTree = "<group>";
+		};
 		6A51178F2069E91800E50939 /* FocusViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +324,7 @@
 		6A9975C22068F2B400B512BC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6A373BDB2074B461001E0936 /* LZTipsView */,
 				6AD01AB7206C89D60070594B /* PopoutClass */,
 				6A9975C32068F2B400B512BC /* ToolClass */,
 				6A9975C62068F2B400B512BC /* LEEAlert */,
@@ -718,6 +731,7 @@
 				6AD01AC3206CB7360070594B /* CardCollectionViewCell.m in Sources */,
 				6A9975CF2068F2B400B512BC /* LEEAlert.m in Sources */,
 				6A5117942069E93600E50939 /* FocusViewController.m in Sources */,
+				6A373BDE2074B4B9001E0936 /* LZTipsView.m in Sources */,
 				6A9975D02068F2B400B512BC /* SystemMapViewScroller.m in Sources */,
 				6A9975DD2068F55900B512BC /* SetColletionViewSectionBCVC.m in Sources */,
 				6ADBDBEA206B546F00D18B07 /* PGCustomBannerView.m in Sources */,

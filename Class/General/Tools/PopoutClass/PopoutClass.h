@@ -29,4 +29,5 @@
 
 +(void)leeAleartCustomVIew:(UIView *)view customW:(CGFloat )W customH:(CGFloat)H alearAlpha:(float)alpha positionType:(LEECustomViewPositionType)postionType openAnimationStyle:(LEEAnimationStyle)openStyle closeAnimationStyle:(LEEAnimationStyle)closeStyle openAnimDuration:(CGFloat)openDuration closeAnimDuration:(CGFloat)closeDuration clickBackgroundClose:(BOOL)yesorno;
 
+
 @end

@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface MacroTestVIewController : ViewController
+@interface MacroTestVIewController : UIViewController
 
 @end

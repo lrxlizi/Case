@@ -110,6 +110,11 @@
 
 }
 
+- (IBAction)tip:(id)sender {
+    LZTipsView *tipVIew = [[LZTipsView alloc]initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH , 36) textStr:@"hahah"];
+    [self.view addSubview:tipVIew];
+    [tipVIew show:YES];
+}
 
 
 - (void)didReceiveMemoryWarning {

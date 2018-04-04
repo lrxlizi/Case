@@ -20,8 +20,8 @@
 #import "ToolClass.h"//工具类
 #import "SDCycleScrollView.h"//轮播
 #import "PopoutClass.h"//弹框
+#import "LZTipsView.h"
 #import "FrameClass.h"//坐标
-
 
 //宏
 #import "Deviceinfo.h"
