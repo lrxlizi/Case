@@ -22,4 +22,10 @@
 #import "PopoutClass.h"//弹框
 #import "FrameClass.h"//坐标
 
+
+//宏
+#import "Deviceinfo.h"
+
+
+
 #endif /* PrefixHeader_pch */

@@ -13,6 +13,7 @@
 #import "PickerViewController.h"
 #import "CardViewController.h"
 #import "TryMasonryViewController.h"
+#import "MacroTestVIewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,7 +29,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     
-    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview",@"collectionVIew卡片",@"测试masonry"];
+    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview",@"collectionVIew卡片",@"测试masonry",@"宏测试"];
     
     UITableView *tableView     = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
     tableView.delegate         = self;
@@ -78,6 +79,9 @@
     }else if (indexPath.row==5){
         TryMasonryViewController *try = [TryMasonryViewController new];
         [self.navigationController pushViewController:try animated:YES];
+    }else if (indexPath.row==6){
+        MacroTestVIewController *macro = [MacroTestVIewController new];
+        [self.navigationController pushViewController:macro animated:YES];
     }
 }
 
