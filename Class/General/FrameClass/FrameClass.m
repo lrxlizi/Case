@@ -51,7 +51,19 @@
     return array;
     
 }
-
+/**
+ left_width_height_topView
+ */
++(NSArray *)masonryKnow_left_width_height_topView:(UIView *)view left:(CGFloat)l height:(CGFloat)h  width:(CGFloat)w  topVIew:(UIView *)tView topVIewBottom:(CGFloat)t {
+    NSArray *array =[NSArray arrayWithArray: [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_offset(l);
+        make.top.equalTo(tView.mas_bottom).offset(t);
+        make.height.mas_offset(h);
+        make.width.mas_offset(w);
+    }]];
+    return array;
+    
+}
 /**
  left_rigth_top_height
  */

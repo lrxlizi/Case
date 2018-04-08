@@ -146,13 +146,22 @@
     view.layer.borderColor   = color.CGColor;
     view.layer.borderWidth   = width;
 }
-//设置label属性
+//设置label属性 
 +(void)setLabelProperty:(UILabel *)label backgroundColor:(UIColor *)color textColor:(UIColor *)tColor textFont:(UIFont *)font textAlignment:(NSTextAlignment )alignment{
     label.backgroundColor = color;
     label.textColor       = tColor;
     label.font            = font;
     label.textAlignment   = alignment;
 }
+
+//button属性
++(void)setButtonProperty:(UIButton *)btn backgroundColor:(UIColor *)color title:(NSString *)titleStr  titleColor:(UIColor *)tColor titleFont:(UIFont *)font {
+    btn.backgroundColor = color;
+    [btn setTitle:titleStr forState:UIControlStateNormal];
+    [btn setTitleColor:tColor forState:UIControlStateNormal];
+    btn.titleLabel.font = font;
+}
+
 //设置view阴影
 +(void)setViewShodow:(UIView *)view shadowColor:(UIColor *)sColor shadowOffset:(CGSize)sSize shadowRadius:(CGFloat)ra shadowOpacity:(float)opacity{
     view.layer.shadowColor = sColor.CGColor;
@@ -160,8 +169,9 @@
     view.layer.shadowRadius = ra;
     view.layer.shadowOpacity = opacity;
 }
-/*
- 
- [self.bgVIew layoutIfNeeded];
- */
+
+//设置imageVIew的图片(网络图片)
++(void)setImageViewImg:(UIImageView *)iv imageUrl:(NSString *)url{
+    [iv sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:LZDefaultImage];
+}
 @end

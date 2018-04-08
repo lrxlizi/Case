@@ -65,5 +65,7 @@
 +(void)setLabelProperty:(UILabel *)label backgroundColor:(UIColor *)color textColor:(UIColor *)tColor textFont:(UIFont *)font textAlignment:(NSTextAlignment )alignment;
 //设置view阴影
 +(void)setViewShodow:(UIView *)view shadowColor:(UIColor *)sColor shadowOffset:(CGSize)sSize shadowRadius:(CGFloat)ra shadowOpacity:(float)opacity;
+//设置imageVIew的图片(网络图片)
++(void)setImageViewImg:(UIImageView *)iv imageUrl:(NSString *)url;
 
 @end

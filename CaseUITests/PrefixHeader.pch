@@ -26,6 +26,8 @@
 //宏
 #import "Deviceinfo.h"
 
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
 
 
 #endif /* PrefixHeader_pch */

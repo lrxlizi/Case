@@ -28,4 +28,9 @@
 #define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
 #define IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
+#define LZDefaultImage [UIImage imageNamed:@"myselfCard_0"]
+
+
+
+
 #endif /* Deviceinfo_h */

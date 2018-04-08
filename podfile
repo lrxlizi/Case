@@ -3,4 +3,6 @@ target 'Case' do
  pod 'Masonry', '~> 0.6.4'
 #轮播
   pod 'SDCycleScrollView','~> 1.64'
+  #网络图片加载
+    pod 'SDWebImage'
 end
