@@ -14,6 +14,10 @@
 #import "CardViewController.h"
 #import "TryMasonryViewController.h"
 #import "MacroTestVIewController.h"
+#import "CompassViewController.h"
+#import "ApplePayViewController.h"
+#import "ImitateKeepViewController.h"
+#import "MoveViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,8 +32,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    
-    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview+弹框",@"collectionVIew卡片",@"测试masonry",@"宏测试"];
+    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview+弹框",@"collectionVIew卡片",@"测试masonry",@"类测试",@"磁力计 - 仿系统的指南针",@"ApplePay",@"模仿",@"move"];
     
     UITableView *tableView     = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
     tableView.delegate         = self;
@@ -38,7 +41,6 @@
     tableView.backgroundColor  = [UIColor groupTableViewBackgroundColor];
     tableView.tableFooterView  = [UIView new];
   
-    
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -50,8 +52,7 @@
     if (!cell) {
         cell              = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TABLEVIEW"];
     }
-    cell.textLabel.text   = self.contentArr[indexPath
-                                            .row];
+    cell.textLabel.text   = self.contentArr[indexPath.row];
     cell.selectionStyle   = UITableViewCellSelectionStyleNone;
     return cell;
 }
@@ -81,6 +82,19 @@
     }else if (indexPath.row==6){
         MacroTestVIewController *macro = [MacroTestVIewController new];
         [self.navigationController pushViewController:macro animated:YES];
+    }else if (indexPath.row==7){
+        CompassViewController *compass = [CompassViewController new];
+        [self.navigationController pushViewController:compass animated:YES];
+    }else if (indexPath.row==8){
+        ApplePayViewController *applePay = [[ApplePayViewController alloc]init];
+        [self.navigationController pushViewController:applePay animated:YES];
+    }else if (indexPath.row==9){
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        ImitateKeepViewController *imitateKeep = [storyboard instantiateViewControllerWithIdentifier:@"imitateKeepViewController"];
+        [self.navigationController pushViewController:imitateKeep animated:YES];
+    }else if (indexPath.row==10){
+        MoveViewController *move = [MoveViewController new];
+        [self.navigationController pushViewController:move animated:YES];
     }
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A20AE7C209327BE006AF5AA /* MoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A20AE7B209327BE006AF5AA /* MoveViewController.m */; };
+		6A33C76A207F310C0029A91E /* ApplePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C769207F310C0029A91E /* ApplePayViewController.m */; };
+		6A33C76D207F32C30029A91E /* IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C76C207F32C30029A91E /* IAPManager.m */; };
 		6A373BDA2074ABEA001E0936 /* MacroTestVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */; };
 		6A373BDE2074B4B9001E0936 /* LZTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BDD2074B4B9001E0936 /* LZTipsView.m */; };
 		6A5117942069E93600E50939 /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5117932069E93600E50939 /* FocusViewController.m */; };
@@ -25,6 +28,13 @@
 		6A9975E52068F62800B512BC /* JHCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9975DF2068F62700B512BC /* JHCollectionViewFlowLayout.m */; };
 		6A9975E62068F62800B512BC /* JHCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9975E02068F62800B512BC /* JHCollectionReusableView.m */; };
 		6A9975E72068F62800B512BC /* JHCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9975E42068F62800B512BC /* JHCollectionViewLayoutAttributes.m */; };
+		6A9D59BE2084A58900A170FA /* BaseNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D59BD2084A58900A170FA /* BaseNavView.m */; };
+		6A9D59C12084AABC00A170FA /* ImitateKeepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D59C02084AABC00A170FA /* ImitateKeepViewController.m */; };
+		6ACF6478207B560500D2855D /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF6477207B560500D2855D /* CompassViewController.m */; };
+		6ACF647B207B561A00D2855D /* ScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF6479207B561A00D2855D /* ScaleView.m */; };
+		6ACF647D207B564700D2855D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF647C207B564600D2855D /* AddressBook.framework */; };
+		6ACF647F207B565300D2855D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF647E207B565300D2855D /* CoreLocation.framework */; };
+		6ACF6481207B565C00D2855D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF6480207B565C00D2855D /* CoreMotion.framework */; };
 		6AD01ABA206C89E70070594B /* PopoutClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD01AB9206C89E70070594B /* PopoutClass.m */; };
 		6AD01AC3206CB7360070594B /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD01ABF206CB7350070594B /* CardCollectionViewCell.m */; };
 		6AD01AC4206CB7360070594B /* CardCollectionVIewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD01AC0206CB7350070594B /* CardCollectionVIewLayout.m */; };
@@ -46,6 +56,8 @@
 		6ADBDBF3206B70F800D18B07 /* LZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADBDBF1206B70F800D18B07 /* LZPickerView.m */; };
 		6ADBDBF7206B712A00D18B07 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADBDBF5206B712A00D18B07 /* PickerViewController.m */; };
 		6ADBDBF8206B712A00D18B07 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ADBDBF6206B712A00D18B07 /* PickerViewController.xib */; };
+		6AF708712086F0F9001FA681 /* TonePlayerSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7086F2086F0F9001FA681 /* TonePlayerSimple.m */; };
+		6AF708752086FA56001FA681 /* kee_waitting_for_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AF708742086FA56001FA681 /* kee_waitting_for_u.mp3 */; };
 		6EC125E8D8D595722101E341 /* libPods-Case.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2878EF213E30BAEBA1BE937 /* libPods-Case.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +72,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A20AE7A209327BE006AF5AA /* MoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveViewController.h; sourceTree = "<group>"; };
+		6A20AE7B209327BE006AF5AA /* MoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveViewController.m; sourceTree = "<group>"; };
+		6A33C768207F310C0029A91E /* ApplePayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePayViewController.h; sourceTree = "<group>"; };
+		6A33C769207F310C0029A91E /* ApplePayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePayViewController.m; sourceTree = "<group>"; };
+		6A33C76B207F32C30029A91E /* IAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPManager.h; sourceTree = "<group>"; };
+		6A33C76C207F32C30029A91E /* IAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPManager.m; sourceTree = "<group>"; };
 		6A373BD62074A98D001E0936 /* Deviceinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deviceinfo.h; sourceTree = "<group>"; };
 		6A373BD82074ABEA001E0936 /* MacroTestVIewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroTestVIewController.h; sourceTree = "<group>"; };
 		6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroTestVIewController.m; sourceTree = "<group>"; };
@@ -98,6 +116,17 @@
 		6A9975E22068F62800B512BC /* JHCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		6A9975E32068F62800B512BC /* JHCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionReusableView.h; sourceTree = "<group>"; };
 		6A9975E42068F62800B512BC /* JHCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		6A9D59BC2084A58900A170FA /* BaseNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavView.h; sourceTree = "<group>"; };
+		6A9D59BD2084A58900A170FA /* BaseNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavView.m; sourceTree = "<group>"; };
+		6A9D59BF2084AABC00A170FA /* ImitateKeepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImitateKeepViewController.h; sourceTree = "<group>"; };
+		6A9D59C02084AABC00A170FA /* ImitateKeepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImitateKeepViewController.m; sourceTree = "<group>"; };
+		6ACF6476207B560500D2855D /* CompassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompassViewController.h; sourceTree = "<group>"; };
+		6ACF6477207B560500D2855D /* CompassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
+		6ACF6479207B561A00D2855D /* ScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleView.m; sourceTree = "<group>"; };
+		6ACF647A207B561A00D2855D /* ScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleView.h; sourceTree = "<group>"; };
+		6ACF647C207B564600D2855D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6ACF647E207B565300D2855D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6ACF6480207B565C00D2855D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		6AD01AB8206C89E70070594B /* PopoutClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopoutClass.h; sourceTree = "<group>"; };
 		6AD01AB9206C89E70070594B /* PopoutClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoutClass.m; sourceTree = "<group>"; };
 		6AD01ABF206CB7350070594B /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
@@ -137,6 +166,9 @@
 		6ADBDBF4206B712A00D18B07 /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
 		6ADBDBF5206B712A00D18B07 /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 		6ADBDBF6206B712A00D18B07 /* PickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		6AF7086F2086F0F9001FA681 /* TonePlayerSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TonePlayerSimple.m; sourceTree = "<group>"; };
+		6AF708702086F0F9001FA681 /* TonePlayerSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonePlayerSimple.h; sourceTree = "<group>"; };
+		6AF708742086FA56001FA681 /* kee_waitting_for_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kee_waitting_for_u.mp3; sourceTree = "<group>"; };
 		751984988905CFEA4B2328EB /* Pods-Case.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Case.release.xcconfig"; path = "Pods/Target Support Files/Pods-Case/Pods-Case.release.xcconfig"; sourceTree = "<group>"; };
 		D2878EF213E30BAEBA1BE937 /* libPods-Case.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Case.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD229E701867F7FA55E641F4 /* Pods-Case.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Case.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Case/Pods-Case.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +179,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACF6481207B565C00D2855D /* CoreMotion.framework in Frameworks */,
+				6ACF647F207B565300D2855D /* CoreLocation.framework in Frameworks */,
+				6ACF647D207B564700D2855D /* AddressBook.framework in Frameworks */,
 				6EC125E8D8D595722101E341 /* libPods-Case.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,9 +199,21 @@
 		5BB5B8AAD697281B597286CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6ACF6480207B565C00D2855D /* CoreMotion.framework */,
+				6ACF647E207B565300D2855D /* CoreLocation.framework */,
+				6ACF647C207B564600D2855D /* AddressBook.framework */,
 				D2878EF213E30BAEBA1BE937 /* libPods-Case.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A20AE79209327B2006AF5AA /* MoveViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A20AE7A209327BE006AF5AA /* MoveViewController.h */,
+				6A20AE7B209327BE006AF5AA /* MoveViewController.m */,
+			);
+			path = MoveViewController;
 			sourceTree = "<group>";
 		};
 		6A31F6B105A3B2AF84DBC9E3 /* Pods */ = {
@@ -176,6 +223,41 @@
 				751984988905CFEA4B2328EB /* Pods-Case.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A33C764207F30FA0029A91E /* ApplePayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A33C765207F30FA0029A91E /* Controller */,
+				6A33C766207F30FA0029A91E /* View */,
+				6A33C767207F30FA0029A91E /* Class */,
+			);
+			path = ApplePayViewController;
+			sourceTree = "<group>";
+		};
+		6A33C765207F30FA0029A91E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A33C768207F310C0029A91E /* ApplePayViewController.h */,
+				6A33C769207F310C0029A91E /* ApplePayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A33C766207F30FA0029A91E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A33C767207F30FA0029A91E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6A33C76B207F32C30029A91E /* IAPManager.h */,
+				6A33C76C207F32C30029A91E /* IAPManager.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		6A373BD52074A938001E0936 /* Macro */ = {
@@ -279,6 +361,7 @@
 		6A9975BE2068F21100B512BC /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				6AF708722086F201001FA681 /* Resource */,
 				6A373BD52074A938001E0936 /* Macro */,
 				6A9975C12068F2B400B512BC /* General */,
 				6A9975C02068F27200B512BC /* AppDelegate */,
@@ -290,6 +373,10 @@
 		6A9975BF2068F23100B512BC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6A20AE79209327B2006AF5AA /* MoveViewController */,
+				6A9D59B92084A55100A170FA /* ImitateKeepViewController */,
+				6A33C764207F30FA0029A91E /* ApplePayViewController */,
+				6ACF6473207B55EF00D2855D /* CompassVIewController */,
 				6A373BD72074ABD5001E0936 /* MacroTestVIewController */,
 				6AD680F6206DD8F700C86A0F /* TryMasonryViewController */,
 				6AD01AC8206CBA860070594B /* CardCollectionVIew */,
@@ -324,6 +411,7 @@
 		6A9975C22068F2B400B512BC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6AF7086E2086F0F9001FA681 /* TonePlayer */,
 				6A373BDB2074B461001E0936 /* LZTipsView */,
 				6AD01AB7206C89D60070594B /* PopoutClass */,
 				6A9975C32068F2B400B512BC /* ToolClass */,
@@ -400,6 +488,8 @@
 			children = (
 				6A9975D82068F3D100B512BC /* BaseControllerViewController.h */,
 				6A9975D92068F3D100B512BC /* BaseControllerViewController.m */,
+				6A9D59BC2084A58900A170FA /* BaseNavView.h */,
+				6A9D59BD2084A58900A170FA /* BaseNavView.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -415,6 +505,58 @@
 				6A9975E42068F62800B512BC /* JHCollectionViewLayoutAttributes.m */,
 			);
 			path = VIew;
+			sourceTree = "<group>";
+		};
+		6A9D59B92084A55100A170FA /* ImitateKeepViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A9D59BA2084A55100A170FA /* Controller */,
+				6A9D59BB2084A55100A170FA /* View */,
+			);
+			path = ImitateKeepViewController;
+			sourceTree = "<group>";
+		};
+		6A9D59BA2084A55100A170FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A9D59BF2084AABC00A170FA /* ImitateKeepViewController.h */,
+				6A9D59C02084AABC00A170FA /* ImitateKeepViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A9D59BB2084A55100A170FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ACF6473207B55EF00D2855D /* CompassVIewController */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF6474207B55EF00D2855D /* Controller */,
+				6ACF6475207B55EF00D2855D /* View */,
+			);
+			path = CompassVIewController;
+			sourceTree = "<group>";
+		};
+		6ACF6474207B55EF00D2855D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF6476207B560500D2855D /* CompassViewController.h */,
+				6ACF6477207B560500D2855D /* CompassViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6ACF6475207B55EF00D2855D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF647A207B561A00D2855D /* ScaleView.h */,
+				6ACF6479207B561A00D2855D /* ScaleView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6AD01AB7206C89D60070594B /* PopoutClass */ = {
@@ -567,6 +709,32 @@
 			path = LZPickerView;
 			sourceTree = "<group>";
 		};
+		6AF7086E2086F0F9001FA681 /* TonePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6AF708702086F0F9001FA681 /* TonePlayerSimple.h */,
+				6AF7086F2086F0F9001FA681 /* TonePlayerSimple.m */,
+			);
+			path = TonePlayer;
+			sourceTree = "<group>";
+		};
+		6AF708722086F201001FA681 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6AF708732086F201001FA681 /* Sound */,
+			);
+			name = Resource;
+			path = Class/Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		6AF708732086F201001FA681 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				6AF708742086FA56001FA681 /* kee_waitting_for_u.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -620,6 +788,11 @@
 					6A99756E2068CC9000B512BC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					6A9975862068CC9000B512BC = {
 						CreatedOnToolsVersion = 9.2;
@@ -653,6 +826,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A99757F2068CC9000B512BC /* LaunchScreen.storyboard in Resources */,
+				6AF708752086FA56001FA681 /* kee_waitting_for_u.mp3 in Resources */,
 				6A99757C2068CC9000B512BC /* Assets.xcassets in Resources */,
 				6A99757A2068CC9000B512BC /* Main.storyboard in Resources */,
 				6ADBDBDA206B4BB900D18B07 /* YQSweepCardItem.xib in Resources */,
@@ -723,7 +897,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A33C76D207F32C30029A91E /* IAPManager.m in Sources */,
+				6A9D59BE2084A58900A170FA /* BaseNavView.m in Sources */,
 				6ADBDBE7206B536700D18B07 /* MovieCardTableViewCell.m in Sources */,
+				6ACF6478207B560500D2855D /* CompassViewController.m in Sources */,
 				6AD01AC4206CB7360070594B /* CardCollectionVIewLayout.m in Sources */,
 				6A9975D42068F2F900B512BC /* ViewController.m in Sources */,
 				6A9975E72068F62800B512BC /* JHCollectionViewLayoutAttributes.m in Sources */,
@@ -741,18 +918,23 @@
 				6A9975CE2068F2B400B512BC /* ToolClass.m in Sources */,
 				6ADBDBD8206B4BB900D18B07 /* YQSweepCardItem.m in Sources */,
 				6ADBDBE4206B533400D18B07 /* NewPagedFlowView.m in Sources */,
+				6A20AE7C209327BE006AF5AA /* MoveViewController.m in Sources */,
 				6AD01AC7206CB9910070594B /* CardViewController.m in Sources */,
 				6AD01ABA206C89E70070594B /* PopoutClass.m in Sources */,
 				6ADBDBD9206B4BB900D18B07 /* MySelfCardCollectionViewCell.m in Sources */,
 				6ADBDBF3206B70F800D18B07 /* LZPickerView.m in Sources */,
+				6A9D59C12084AABC00A170FA /* ImitateKeepViewController.m in Sources */,
+				6ACF647B207B561A00D2855D /* ScaleView.m in Sources */,
 				6AD68102206E135000C86A0F /* FrameClass.m in Sources */,
 				6ADBDBCE206B43CE00D18B07 /* FocuseViewTableViewCell.m in Sources */,
 				6A9975E62068F62800B512BC /* JHCollectionReusableView.m in Sources */,
 				6ADBDBF7206B712A00D18B07 /* PickerViewController.m in Sources */,
+				6AF708712086F0F9001FA681 /* TonePlayerSimple.m in Sources */,
 				6ADBDBD7206B4BB900D18B07 /* YQSweepCardView.m in Sources */,
 				6ADBDBE3206B533400D18B07 /* PGIndexBannerSubiew.m in Sources */,
 				6AD680FE206E111300C86A0F /* LZBirthdayView.m in Sources */,
 				6A9975742068CC9000B512BC /* AppDelegate.m in Sources */,
+				6A33C76A207F310C0029A91E /* ApplePayViewController.m in Sources */,
 				6A9975DA2068F3D100B512BC /* BaseControllerViewController.m in Sources */,
 				6ADBDBDD206B4BDF00D18B07 /* LWDPageControl.m in Sources */,
 			);
@@ -913,7 +1095,7 @@
 				DEVELOPMENT_TEAM = SEWBU2EJ25;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CaseUITests/PrefixHeader.pch";
 				INFOPLIST_FILE = Case/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lizi.Case;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -930,7 +1112,7 @@
 				DEVELOPMENT_TEAM = SEWBU2EJ25;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CaseUITests/PrefixHeader.pch";
 				INFOPLIST_FILE = Case/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lizi.Case;
 				PRODUCT_NAME = "$(TARGET_NAME)";

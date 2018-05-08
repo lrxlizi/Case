@@ -96,7 +96,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TABLEVIEW"];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"第%ld行",indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"第%ld行",(long)indexPath.row];
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

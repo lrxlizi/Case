@@ -19,7 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
-
+    NSMutableArray  *arr= [NSMutableArray arrayWithArray:@[@"0",@"0",@"0",@"0",@"0",@"0",@"0",@"0",@"0"]];
+    lzUserDefaultsSET(arr, @"arr");
+    lzUserDefaultsSynchronize;
+    
+   
     return YES;
 }
 
