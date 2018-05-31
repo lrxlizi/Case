@@ -13,6 +13,7 @@
 		6A373BDA2074ABEA001E0936 /* MacroTestVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */; };
 		6A373BDE2074B4B9001E0936 /* LZTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BDD2074B4B9001E0936 /* LZTipsView.m */; };
 		6A5117942069E93600E50939 /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5117932069E93600E50939 /* FocusViewController.m */; };
+		6A6954E920B65D07008CECFE /* ClicksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6954E820B65D07008CECFE /* ClicksViewController.m */; };
 		6A9975742068CC9000B512BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9975732068CC9000B512BC /* AppDelegate.m */; };
 		6A99757A2068CC9000B512BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9975782068CC9000B512BC /* Main.storyboard */; };
 		6A99757C2068CC9000B512BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A99757B2068CC9000B512BC /* Assets.xcassets */; };
@@ -30,6 +31,8 @@
 		6A9975E72068F62800B512BC /* JHCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9975E42068F62800B512BC /* JHCollectionViewLayoutAttributes.m */; };
 		6A9D59BE2084A58900A170FA /* BaseNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D59BD2084A58900A170FA /* BaseNavView.m */; };
 		6A9D59C12084AABC00A170FA /* ImitateKeepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D59C02084AABC00A170FA /* ImitateKeepViewController.m */; };
+		6AAB3A4820BF9CBC006DDC85 /* CharactersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB3A4720BF9CBC006DDC85 /* CharactersView.m */; };
+		6AAB3A4B20BFA1BD006DDC85 /* CharactersCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB3A4A20BFA1BD006DDC85 /* CharactersCollectionViewCell.m */; };
 		6ACF6478207B560500D2855D /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF6477207B560500D2855D /* CompassViewController.m */; };
 		6ACF647B207B561A00D2855D /* ScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF6479207B561A00D2855D /* ScaleView.m */; };
 		6ACF647D207B564700D2855D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF647C207B564600D2855D /* AddressBook.framework */; };
@@ -85,6 +88,8 @@
 		6A373BDD2074B4B9001E0936 /* LZTipsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTipsView.m; sourceTree = "<group>"; };
 		6A5117922069E93600E50939 /* FocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FocusViewController.h; sourceTree = "<group>"; };
 		6A5117932069E93600E50939 /* FocusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusViewController.m; sourceTree = "<group>"; };
+		6A6954E720B65D07008CECFE /* ClicksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClicksViewController.h; sourceTree = "<group>"; };
+		6A6954E820B65D07008CECFE /* ClicksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClicksViewController.m; sourceTree = "<group>"; };
 		6A99756F2068CC9000B512BC /* Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Case.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9975722068CC9000B512BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A9975732068CC9000B512BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +125,10 @@
 		6A9D59BD2084A58900A170FA /* BaseNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavView.m; sourceTree = "<group>"; };
 		6A9D59BF2084AABC00A170FA /* ImitateKeepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImitateKeepViewController.h; sourceTree = "<group>"; };
 		6A9D59C02084AABC00A170FA /* ImitateKeepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImitateKeepViewController.m; sourceTree = "<group>"; };
+		6AAB3A4620BF9CBC006DDC85 /* CharactersView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersView.h; sourceTree = "<group>"; };
+		6AAB3A4720BF9CBC006DDC85 /* CharactersView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersView.m; sourceTree = "<group>"; };
+		6AAB3A4920BFA1BD006DDC85 /* CharactersCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersCollectionViewCell.h; sourceTree = "<group>"; };
+		6AAB3A4A20BFA1BD006DDC85 /* CharactersCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersCollectionViewCell.m; sourceTree = "<group>"; };
 		6ACF6476207B560500D2855D /* CompassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompassViewController.h; sourceTree = "<group>"; };
 		6ACF6477207B560500D2855D /* CompassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
 		6ACF6479207B561A00D2855D /* ScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleView.m; sourceTree = "<group>"; };
@@ -315,6 +324,35 @@
 			path = VIew;
 			sourceTree = "<group>";
 		};
+		6A6954E420B65CF1008CECFE /* ClicksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A6954E520B65CF1008CECFE /* Controller */,
+				6A6954E620B65CF1008CECFE /* View */,
+			);
+			path = ClicksViewController;
+			sourceTree = "<group>";
+		};
+		6A6954E520B65CF1008CECFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A6954E720B65D07008CECFE /* ClicksViewController.h */,
+				6A6954E820B65D07008CECFE /* ClicksViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A6954E620B65CF1008CECFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB3A4620BF9CBC006DDC85 /* CharactersView.h */,
+				6AAB3A4720BF9CBC006DDC85 /* CharactersView.m */,
+				6AAB3A4920BFA1BD006DDC85 /* CharactersCollectionViewCell.h */,
+				6AAB3A4A20BFA1BD006DDC85 /* CharactersCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6A9975662068CC9000B512BC = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +411,7 @@
 		6A9975BF2068F23100B512BC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6A6954E420B65CF1008CECFE /* ClicksViewController */,
 				6A20AE79209327B2006AF5AA /* MoveViewController */,
 				6A9D59B92084A55100A170FA /* ImitateKeepViewController */,
 				6A33C764207F30FA0029A91E /* ApplePayViewController */,
@@ -910,11 +949,13 @@
 				6A5117942069E93600E50939 /* FocusViewController.m in Sources */,
 				6A373BDE2074B4B9001E0936 /* LZTipsView.m in Sources */,
 				6A9975D02068F2B400B512BC /* SystemMapViewScroller.m in Sources */,
+				6A6954E920B65D07008CECFE /* ClicksViewController.m in Sources */,
 				6A9975DD2068F55900B512BC /* SetColletionViewSectionBCVC.m in Sources */,
 				6ADBDBEA206B546F00D18B07 /* PGCustomBannerView.m in Sources */,
 				6A373BDA2074ABEA001E0936 /* MacroTestVIewController.m in Sources */,
 				6A9975E52068F62800B512BC /* JHCollectionViewFlowLayout.m in Sources */,
 				6A9975822068CC9000B512BC /* main.m in Sources */,
+				6AAB3A4B20BFA1BD006DDC85 /* CharactersCollectionViewCell.m in Sources */,
 				6A9975CE2068F2B400B512BC /* ToolClass.m in Sources */,
 				6ADBDBD8206B4BB900D18B07 /* YQSweepCardItem.m in Sources */,
 				6ADBDBE4206B533400D18B07 /* NewPagedFlowView.m in Sources */,
@@ -924,6 +965,7 @@
 				6ADBDBD9206B4BB900D18B07 /* MySelfCardCollectionViewCell.m in Sources */,
 				6ADBDBF3206B70F800D18B07 /* LZPickerView.m in Sources */,
 				6A9D59C12084AABC00A170FA /* ImitateKeepViewController.m in Sources */,
+				6AAB3A4820BF9CBC006DDC85 /* CharactersView.m in Sources */,
 				6ACF647B207B561A00D2855D /* ScaleView.m in Sources */,
 				6AD68102206E135000C86A0F /* FrameClass.m in Sources */,
 				6ADBDBCE206B43CE00D18B07 /* FocuseViewTableViewCell.m in Sources */,

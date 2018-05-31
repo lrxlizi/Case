@@ -225,7 +225,7 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES animated:nil];
+//    [self.navigationController setNavigationBarHidden:YES animated:nil];
 }
 - (UIStatusBarStyle)preferredStatusBarStyle {
         return UIStatusBarStyleLightContent;
@@ -233,7 +233,7 @@
 }
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:nil];
+//    [self.navigationController setNavigationBarHidden:NO animated:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

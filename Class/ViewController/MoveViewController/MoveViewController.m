@@ -67,6 +67,7 @@
     
 }
 - (UIBezierPath*)middlePath{
+    
     UIBezierPath *middlePath = [UIBezierPath bezierPath];
     [middlePath moveToPoint:CGPointMake(41.314, 0)];
     [middlePath addCurveToPoint:CGPointMake(117.882, 56.746) controlPoint1:CGPointMake(77.409, 0) controlPoint2:CGPointMake(107.921, 23.904)];
