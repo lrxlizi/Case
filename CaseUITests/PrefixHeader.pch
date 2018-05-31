@@ -24,7 +24,8 @@
 #import "FrameClass.h"//坐标
 #import "BaseNavView.h"//通用导航栏
 #import "TonePlayerSimple.h"
-
+#import "ErrorView.h"
+#import "FailedView.h"
 //宏
 #import "Deviceinfo.h"
 
@@ -32,5 +33,7 @@
 #import <SDWebImage/UIButton+WebCache.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <AVFoundation/AVFoundation.h>
+
+#define SCALEW SCREEN_WIDTH/375
 
 #endif /* PrefixHeader_pch */

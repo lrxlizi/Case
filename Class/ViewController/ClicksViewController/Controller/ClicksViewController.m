@@ -11,7 +11,7 @@
 
 @interface ClicksViewController ()
 @property (nonatomic, strong) UIButton *btn;
-
+@property (nonatomic, strong) CharactersView *charactersView;
 @end
 
 @implementation ClicksViewController
@@ -52,6 +52,11 @@
     
     CharactersView *view = [[CharactersView alloc]initWithFrame:CGRectMake(0, 100, SCREEN_WIDTH, 400) selectCount:4 charactersarr:@[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"11",@"12",@"13",@"14",@"15",@"16",@"17",@"18",@"19",@"20",@"21",@"22",@"23",@"24",@"25"]];
     [self.view addSubview:view];
+    self.charactersView = view;
+    __weak __typeof(self)weakSelf = self;
+    view.chararctersViewSuccessfulMatches = ^{
+        [weakSelf.charactersView removeFromSuperview];
+    };
     
     
 }

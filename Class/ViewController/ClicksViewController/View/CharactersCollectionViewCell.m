@@ -36,4 +36,14 @@
     
     
 }
+
+- (void)setModel:(CharactersModel *)model{
+    if (model.isSelected) {
+         self.backgroundColor = [[UIColor redColor]colorWithAlphaComponent:1];
+    }else{
+         self.backgroundColor = [[UIColor redColor]colorWithAlphaComponent:0.3];
+    }
+}
+
+
 @end

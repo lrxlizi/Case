@@ -75,9 +75,15 @@
 +(NSArray *)cutUpImage:(UIImage *)image rowMax:(int)rowM colMax:(int)colM imageWidth:(CGFloat)W imageHeight:(CGFloat)H;
 //修改图片的大小
 + (UIImage *)compressOriginalImage:(UIImage *)image toSize:(CGSize)size;
-+(CAKeyframeAnimation *)smithereensBtnAnim:(UIView *)view;
 //收集碎片按钮动画
 +(CAKeyframeAnimation *)smithereensBtnAnim:(UIView *)view;
 
 +(CAKeyframeAnimation *)moveAnimationStarPoint:(CGPoint)statPoint endPoint:(CGPoint)endPoint;
+
+//计算文本的宽度
++ (float)getStringWidth:(NSString *)text andFont:(float)font;
+//计算文本的高度
++ (float)getStringHeight:(NSString *)text andFont:(float)font andWidth:(float)width;
+
+
 @end

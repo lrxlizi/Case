@@ -33,6 +33,9 @@
 		6A9D59C12084AABC00A170FA /* ImitateKeepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D59C02084AABC00A170FA /* ImitateKeepViewController.m */; };
 		6AAB3A4820BF9CBC006DDC85 /* CharactersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB3A4720BF9CBC006DDC85 /* CharactersView.m */; };
 		6AAB3A4B20BFA1BD006DDC85 /* CharactersCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB3A4A20BFA1BD006DDC85 /* CharactersCollectionViewCell.m */; };
+		6AAB3A4F20BFC419006DDC85 /* CharactersModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB3A4E20BFC419006DDC85 /* CharactersModel.m */; };
+		6AAB3A5520BFDEFA006DDC85 /* FailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB3A5220BFDEFA006DDC85 /* FailedView.m */; };
+		6AAB3A5620BFDEFA006DDC85 /* ErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB3A5320BFDEFA006DDC85 /* ErrorView.m */; };
 		6ACF6478207B560500D2855D /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF6477207B560500D2855D /* CompassViewController.m */; };
 		6ACF647B207B561A00D2855D /* ScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF6479207B561A00D2855D /* ScaleView.m */; };
 		6ACF647D207B564700D2855D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACF647C207B564600D2855D /* AddressBook.framework */; };
@@ -129,6 +132,12 @@
 		6AAB3A4720BF9CBC006DDC85 /* CharactersView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersView.m; sourceTree = "<group>"; };
 		6AAB3A4920BFA1BD006DDC85 /* CharactersCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersCollectionViewCell.h; sourceTree = "<group>"; };
 		6AAB3A4A20BFA1BD006DDC85 /* CharactersCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersCollectionViewCell.m; sourceTree = "<group>"; };
+		6AAB3A4D20BFC419006DDC85 /* CharactersModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersModel.h; sourceTree = "<group>"; };
+		6AAB3A4E20BFC419006DDC85 /* CharactersModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersModel.m; sourceTree = "<group>"; };
+		6AAB3A5120BFDEFA006DDC85 /* ErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorView.h; sourceTree = "<group>"; };
+		6AAB3A5220BFDEFA006DDC85 /* FailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedView.m; sourceTree = "<group>"; };
+		6AAB3A5320BFDEFA006DDC85 /* ErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorView.m; sourceTree = "<group>"; };
+		6AAB3A5420BFDEFA006DDC85 /* FailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedView.h; sourceTree = "<group>"; };
 		6ACF6476207B560500D2855D /* CompassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompassViewController.h; sourceTree = "<group>"; };
 		6ACF6477207B560500D2855D /* CompassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
 		6ACF6479207B561A00D2855D /* ScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleView.m; sourceTree = "<group>"; };
@@ -327,6 +336,7 @@
 		6A6954E420B65CF1008CECFE /* ClicksViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6AAB3A4C20BFC3FF006DDC85 /* Model */,
 				6A6954E520B65CF1008CECFE /* Controller */,
 				6A6954E620B65CF1008CECFE /* View */,
 			);
@@ -450,6 +460,7 @@
 		6A9975C22068F2B400B512BC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6AAB3A5020BFDEFA006DDC85 /* FailedView */,
 				6AF7086E2086F0F9001FA681 /* TonePlayer */,
 				6A373BDB2074B461001E0936 /* LZTipsView */,
 				6AD01AB7206C89D60070594B /* PopoutClass */,
@@ -569,6 +580,26 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6AAB3A4C20BFC3FF006DDC85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB3A4D20BFC419006DDC85 /* CharactersModel.h */,
+				6AAB3A4E20BFC419006DDC85 /* CharactersModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AAB3A5020BFDEFA006DDC85 /* FailedView */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB3A5120BFDEFA006DDC85 /* ErrorView.h */,
+				6AAB3A5320BFDEFA006DDC85 /* ErrorView.m */,
+				6AAB3A5420BFDEFA006DDC85 /* FailedView.h */,
+				6AAB3A5220BFDEFA006DDC85 /* FailedView.m */,
+			);
+			path = FailedView;
 			sourceTree = "<group>";
 		};
 		6ACF6473207B55EF00D2855D /* CompassVIewController */ = {
@@ -961,12 +992,15 @@
 				6ADBDBE4206B533400D18B07 /* NewPagedFlowView.m in Sources */,
 				6A20AE7C209327BE006AF5AA /* MoveViewController.m in Sources */,
 				6AD01AC7206CB9910070594B /* CardViewController.m in Sources */,
+				6AAB3A4F20BFC419006DDC85 /* CharactersModel.m in Sources */,
 				6AD01ABA206C89E70070594B /* PopoutClass.m in Sources */,
 				6ADBDBD9206B4BB900D18B07 /* MySelfCardCollectionViewCell.m in Sources */,
 				6ADBDBF3206B70F800D18B07 /* LZPickerView.m in Sources */,
 				6A9D59C12084AABC00A170FA /* ImitateKeepViewController.m in Sources */,
+				6AAB3A5520BFDEFA006DDC85 /* FailedView.m in Sources */,
 				6AAB3A4820BF9CBC006DDC85 /* CharactersView.m in Sources */,
 				6ACF647B207B561A00D2855D /* ScaleView.m in Sources */,
+				6AAB3A5620BFDEFA006DDC85 /* ErrorView.m in Sources */,
 				6AD68102206E135000C86A0F /* FrameClass.m in Sources */,
 				6ADBDBCE206B43CE00D18B07 /* FocuseViewTableViewCell.m in Sources */,
 				6A9975E62068F62800B512BC /* JHCollectionReusableView.m in Sources */,

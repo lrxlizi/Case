@@ -13,5 +13,8 @@
 
 - (instancetype)initWithFrame:(CGRect)frame selectCount:(NSInteger)count charactersarr:(NSArray *)arr;
 
+//匹配成功
+@property(nonatomic,copy)void (^chararctersViewSuccessfulMatches)(void);
+
 
 @end

@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CharactersModel.h"
 
 @interface CharactersCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic, strong) UILabel *textLB;
 
-
+@property (nonatomic, strong)CharactersModel *model;
 
 @end
