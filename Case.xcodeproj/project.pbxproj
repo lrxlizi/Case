@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A20AE7C209327BE006AF5AA /* MoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A20AE7B209327BE006AF5AA /* MoveViewController.m */; };
+		6A24318E20C4DC060042D9AE /* TableViewPropertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24318D20C4DC060042D9AE /* TableViewPropertyVC.m */; };
 		6A33C76A207F310C0029A91E /* ApplePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C769207F310C0029A91E /* ApplePayViewController.m */; };
 		6A33C76D207F32C30029A91E /* IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C76C207F32C30029A91E /* IAPManager.m */; };
 		6A373BDA2074ABEA001E0936 /* MacroTestVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */; };
@@ -80,6 +81,8 @@
 /* Begin PBXFileReference section */
 		6A20AE7A209327BE006AF5AA /* MoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveViewController.h; sourceTree = "<group>"; };
 		6A20AE7B209327BE006AF5AA /* MoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveViewController.m; sourceTree = "<group>"; };
+		6A24318C20C4DC060042D9AE /* TableViewPropertyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewPropertyVC.h; sourceTree = "<group>"; };
+		6A24318D20C4DC060042D9AE /* TableViewPropertyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewPropertyVC.m; sourceTree = "<group>"; };
 		6A33C768207F310C0029A91E /* ApplePayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePayViewController.h; sourceTree = "<group>"; };
 		6A33C769207F310C0029A91E /* ApplePayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePayViewController.m; sourceTree = "<group>"; };
 		6A33C76B207F32C30029A91E /* IAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPManager.h; sourceTree = "<group>"; };
@@ -232,6 +235,31 @@
 				6A20AE7B209327BE006AF5AA /* MoveViewController.m */,
 			);
 			path = MoveViewController;
+			sourceTree = "<group>";
+		};
+		6A24318920C4DBE80042D9AE /* TableViewPropertyVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A24318A20C4DBE80042D9AE /* Controller */,
+				6A24318B20C4DBE80042D9AE /* View */,
+			);
+			path = TableViewPropertyVC;
+			sourceTree = "<group>";
+		};
+		6A24318A20C4DBE80042D9AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A24318C20C4DC060042D9AE /* TableViewPropertyVC.h */,
+				6A24318D20C4DC060042D9AE /* TableViewPropertyVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A24318B20C4DBE80042D9AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6A31F6B105A3B2AF84DBC9E3 /* Pods */ = {
@@ -421,6 +449,7 @@
 		6A9975BF2068F23100B512BC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6A24318920C4DBE80042D9AE /* TableViewPropertyVC */,
 				6A6954E420B65CF1008CECFE /* ClicksViewController */,
 				6A20AE79209327B2006AF5AA /* MoveViewController */,
 				6A9D59B92084A55100A170FA /* ImitateKeepViewController */,
@@ -1002,6 +1031,7 @@
 				6ACF647B207B561A00D2855D /* ScaleView.m in Sources */,
 				6AAB3A5620BFDEFA006DDC85 /* ErrorView.m in Sources */,
 				6AD68102206E135000C86A0F /* FrameClass.m in Sources */,
+				6A24318E20C4DC060042D9AE /* TableViewPropertyVC.m in Sources */,
 				6ADBDBCE206B43CE00D18B07 /* FocuseViewTableViewCell.m in Sources */,
 				6A9975E62068F62800B512BC /* JHCollectionReusableView.m in Sources */,
 				6ADBDBF7206B712A00D18B07 /* PickerViewController.m in Sources */,

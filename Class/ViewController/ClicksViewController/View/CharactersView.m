@@ -48,10 +48,7 @@ UICollectionViewDelegateFlowLayout>
 }
 
 - (void)addSubviews{
-    
-    
-    
-    
+  
     CGFloat WH = 30;
     CGFloat X  = 15;
     CGFloat starX = (SCREEN_WIDTH-((WH+X)*self.count))/2;

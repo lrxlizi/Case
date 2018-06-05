@@ -19,6 +19,7 @@
 #import "ImitateKeepViewController.h"
 #import "MoveViewController.h"
 #import "ClicksViewController.h"
+#import "TableViewPropertyVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -33,7 +34,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview+弹框",@"collectionVIew卡片",@"测试masonry",@"类测试",@"磁力计 - 仿系统的指南针",@"ApplePay",@"模仿",@"move",@"clicks"];
+    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview+弹框",@"collectionVIew卡片",@"测试masonry",@"类测试",@"磁力计 - 仿系统的指南针",@"ApplePay",@"模仿",@"move",@"clicks",@"TableViewPropertyVC"];
     
     UITableView *tableView     = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
     tableView.delegate         = self;
@@ -99,7 +100,9 @@
     }else if (indexPath.row == 11){
         ClicksViewController *clicks = [ClicksViewController new];
         [self.navigationController pushViewController:clicks animated:YES];
-        
+    }else if (indexPath.row == 12){
+        TableViewPropertyVC *vc = [TableViewPropertyVC new];
+        [self.navigationController pushViewController:vc animated:YES];
     }
         
         

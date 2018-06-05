@@ -311,6 +311,7 @@
     keyFrameAnim.fillMode = kCAFillModeForwards;
     return keyFrameAnim;
     
+    
 }
 
 //计算文本的宽度
