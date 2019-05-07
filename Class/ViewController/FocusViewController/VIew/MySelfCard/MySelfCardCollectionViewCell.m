@@ -2,8 +2,9 @@
 //  MySelfCardCollectionViewCell.m
 //  SportChina
 //
-//  Created by 栗子 on 2017/12/11.
-//  Copyright © 2017年 Beijing Sino Dance Culture Media Co.,Ltd. All rights reserved.
+
+//  Created by 栗子 on 2018/7/5.
+//  Copyright © 2018年 http://www.cnblogs.com/Lrx-lizi/.     https://github.com/lrxlizi/     https://blog.csdn.net/qq_33608748. All rights reserved.
 //
 
 #import "MySelfCardCollectionViewCell.h"
@@ -22,13 +23,6 @@
 
 @implementation MySelfCardCollectionViewCell
 
-//-(instancetype)initWithFrame:(CGRect)frame{
-//    if ([super initWithFrame:frame]) {
-//        [self addSubviews];
-//    }
-//    return self;
-//
-//}
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
@@ -62,9 +56,7 @@
         self.pageControl.currentPage = index;
     };
     yqCaraview.tapAct = ^(NSInteger index) {//跳转
-//        NSDictionary *infoDict     = _array[self.pageControl.currentPage];
-//        NSString *target = infoDict[@"schema"];
-//        [TargetAnalytic  analysisSchema:target fromViewControll:[EncapsulationClass baseViewControllerView:self]];
+
     };
     
 }

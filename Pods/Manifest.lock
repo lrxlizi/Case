@@ -11,6 +11,12 @@ DEPENDENCIES:
   - SDCycleScrollView (~> 1.64)
   - SDWebImage
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - SDCycleScrollView
+    - SDWebImage
+
 SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   SDCycleScrollView: f821215226f6146a35470721a9d6e83ec5cfb04b
@@ -18,4 +24,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 763c985d745abc7a4994ddeabe78d2d8c82d22b0
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.2

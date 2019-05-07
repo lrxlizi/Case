@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0FD1B920F5DCCD0014DD13 /* RandomviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FD1B720F5DCCD0014DD13 /* RandomviewController.m */; };
+		6A0FD1BA20F5DCCD0014DD13 /* RandomviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0FD1B820F5DCCD0014DD13 /* RandomviewController.xib */; };
 		6A20AE7C209327BE006AF5AA /* MoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A20AE7B209327BE006AF5AA /* MoveViewController.m */; };
 		6A24318E20C4DC060042D9AE /* TableViewPropertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24318D20C4DC060042D9AE /* TableViewPropertyVC.m */; };
+		6A2792A120E214C500C480EC /* PictureProcessingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A27929F20E214C500C480EC /* PictureProcessingVC.m */; };
+		6A2792A220E214C500C480EC /* PictureProcessingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2792A020E214C500C480EC /* PictureProcessingVC.xib */; };
 		6A33C76A207F310C0029A91E /* ApplePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C769207F310C0029A91E /* ApplePayViewController.m */; };
 		6A33C76D207F32C30029A91E /* IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C76C207F32C30029A91E /* IAPManager.m */; };
 		6A373BDA2074ABEA001E0936 /* MacroTestVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */; };
 		6A373BDE2074B4B9001E0936 /* LZTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A373BDD2074B4B9001E0936 /* LZTipsView.m */; };
+		6A3DD4BC213CDF66009AF7A7 /* EncryptAndDecryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DD4BB213CDF66009AF7A7 /* EncryptAndDecryptViewController.m */; };
+		6A498AA520D8A39B0014BC03 /* LeftDeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A498AA420D8A39B0014BC03 /* LeftDeleteViewController.m */; };
 		6A5117942069E93600E50939 /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5117932069E93600E50939 /* FocusViewController.m */; };
+		6A5F69CF20CE19B800C890FD /* CustomButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F69CE20CE19B800C890FD /* CustomButtonVC.m */; };
+		6A5F69D320CE22C500C890FD /* ControlClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F69D220CE22C500C890FD /* ControlClass.m */; };
 		6A6954E920B65D07008CECFE /* ClicksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6954E820B65D07008CECFE /* ClicksViewController.m */; };
+		6A6AE0EC20D1169100E4A92C /* LZMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE0EB20D1169100E4A92C /* LZMenuButton.m */; };
+		6A6AE0F020D116DF00E4A92C /* LZMenuButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE0EE20D116DF00E4A92C /* LZMenuButtonCell.m */; };
+		6A6AE0F120D116DF00E4A92C /* LZMenuButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE0EF20D116DF00E4A92C /* LZMenuButtonCell.xib */; };
+		6A6AE0F920D11B5B00E4A92C /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE0F320D11B5B00E4A92C /* plus.png */; };
+		6A6AE0FA20D11B5B00E4A92C /* fb-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE0F420D11B5B00E4A92C /* fb-icon.png */; };
+		6A6AE0FB20D11B5B00E4A92C /* twitter-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE0F520D11B5B00E4A92C /* twitter-icon.png */; };
+		6A6AE0FC20D11B5B00E4A92C /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE0F620D11B5B00E4A92C /* cross.png */; };
+		6A6AE0FD20D11B5B00E4A92C /* google-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE0F720D11B5B00E4A92C /* google-icon.png */; };
+		6A6AE0FE20D11B5B00E4A92C /* linkedin-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE0F820D11B5B00E4A92C /* linkedin-icon.png */; };
 		6A9975742068CC9000B512BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9975732068CC9000B512BC /* AppDelegate.m */; };
 		6A99757A2068CC9000B512BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9975782068CC9000B512BC /* Main.storyboard */; };
 		6A99757C2068CC9000B512BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A99757B2068CC9000B512BC /* Assets.xcassets */; };
@@ -79,10 +96,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A0FD1B620F5DCCD0014DD13 /* RandomviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomviewController.h; sourceTree = "<group>"; };
+		6A0FD1B720F5DCCD0014DD13 /* RandomviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomviewController.m; sourceTree = "<group>"; };
+		6A0FD1B820F5DCCD0014DD13 /* RandomviewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomviewController.xib; sourceTree = "<group>"; };
 		6A20AE7A209327BE006AF5AA /* MoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveViewController.h; sourceTree = "<group>"; };
 		6A20AE7B209327BE006AF5AA /* MoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveViewController.m; sourceTree = "<group>"; };
 		6A24318C20C4DC060042D9AE /* TableViewPropertyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewPropertyVC.h; sourceTree = "<group>"; };
 		6A24318D20C4DC060042D9AE /* TableViewPropertyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewPropertyVC.m; sourceTree = "<group>"; };
+		6A27929E20E214C500C480EC /* PictureProcessingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureProcessingVC.h; sourceTree = "<group>"; };
+		6A27929F20E214C500C480EC /* PictureProcessingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureProcessingVC.m; sourceTree = "<group>"; };
+		6A2792A020E214C500C480EC /* PictureProcessingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureProcessingVC.xib; sourceTree = "<group>"; };
 		6A33C768207F310C0029A91E /* ApplePayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePayViewController.h; sourceTree = "<group>"; };
 		6A33C769207F310C0029A91E /* ApplePayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePayViewController.m; sourceTree = "<group>"; };
 		6A33C76B207F32C30029A91E /* IAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPManager.h; sourceTree = "<group>"; };
@@ -92,10 +115,29 @@
 		6A373BD92074ABEA001E0936 /* MacroTestVIewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroTestVIewController.m; sourceTree = "<group>"; };
 		6A373BDC2074B4B9001E0936 /* LZTipsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTipsView.h; sourceTree = "<group>"; };
 		6A373BDD2074B4B9001E0936 /* LZTipsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTipsView.m; sourceTree = "<group>"; };
+		6A3DD4BA213CDF66009AF7A7 /* EncryptAndDecryptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptAndDecryptViewController.h; sourceTree = "<group>"; };
+		6A3DD4BB213CDF66009AF7A7 /* EncryptAndDecryptViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptAndDecryptViewController.m; sourceTree = "<group>"; };
+		6A498AA320D8A39B0014BC03 /* LeftDeleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDeleteViewController.h; sourceTree = "<group>"; };
+		6A498AA420D8A39B0014BC03 /* LeftDeleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDeleteViewController.m; sourceTree = "<group>"; };
 		6A5117922069E93600E50939 /* FocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FocusViewController.h; sourceTree = "<group>"; };
 		6A5117932069E93600E50939 /* FocusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusViewController.m; sourceTree = "<group>"; };
+		6A5F69CD20CE19B800C890FD /* CustomButtonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButtonVC.h; sourceTree = "<group>"; };
+		6A5F69CE20CE19B800C890FD /* CustomButtonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButtonVC.m; sourceTree = "<group>"; };
+		6A5F69D120CE22C500C890FD /* ControlClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlClass.h; sourceTree = "<group>"; };
+		6A5F69D220CE22C500C890FD /* ControlClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlClass.m; sourceTree = "<group>"; };
 		6A6954E720B65D07008CECFE /* ClicksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClicksViewController.h; sourceTree = "<group>"; };
 		6A6954E820B65D07008CECFE /* ClicksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClicksViewController.m; sourceTree = "<group>"; };
+		6A6AE0EA20D1169100E4A92C /* LZMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZMenuButton.h; sourceTree = "<group>"; };
+		6A6AE0EB20D1169100E4A92C /* LZMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMenuButton.m; sourceTree = "<group>"; };
+		6A6AE0ED20D116DF00E4A92C /* LZMenuButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZMenuButtonCell.h; sourceTree = "<group>"; };
+		6A6AE0EE20D116DF00E4A92C /* LZMenuButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZMenuButtonCell.m; sourceTree = "<group>"; };
+		6A6AE0EF20D116DF00E4A92C /* LZMenuButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LZMenuButtonCell.xib; sourceTree = "<group>"; };
+		6A6AE0F320D11B5B00E4A92C /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		6A6AE0F420D11B5B00E4A92C /* fb-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-icon.png"; sourceTree = "<group>"; };
+		6A6AE0F520D11B5B00E4A92C /* twitter-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-icon.png"; sourceTree = "<group>"; };
+		6A6AE0F620D11B5B00E4A92C /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		6A6AE0F720D11B5B00E4A92C /* google-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-icon.png"; sourceTree = "<group>"; };
+		6A6AE0F820D11B5B00E4A92C /* linkedin-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedin-icon.png"; sourceTree = "<group>"; };
 		6A99756F2068CC9000B512BC /* Case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Case.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9975722068CC9000B512BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A9975732068CC9000B512BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -228,6 +270,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6A0FD1B220F5DBD30014DD13 /* RandomviewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A0FD1B620F5DCCD0014DD13 /* RandomviewController.h */,
+				6A0FD1B720F5DCCD0014DD13 /* RandomviewController.m */,
+				6A0FD1B820F5DCCD0014DD13 /* RandomviewController.xib */,
+			);
+			path = RandomviewController;
+			sourceTree = "<group>";
+		};
 		6A20AE79209327B2006AF5AA /* MoveViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +314,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6A27929D20E214B700C480EC /* PictureProcessingVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A27929E20E214C500C480EC /* PictureProcessingVC.h */,
+				6A27929F20E214C500C480EC /* PictureProcessingVC.m */,
+				6A2792A020E214C500C480EC /* PictureProcessingVC.xib */,
+			);
+			path = PictureProcessingVC;
+			sourceTree = "<group>";
+		};
 		6A31F6B105A3B2AF84DBC9E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,7 +337,6 @@
 			isa = PBXGroup;
 			children = (
 				6A33C765207F30FA0029A91E /* Controller */,
-				6A33C766207F30FA0029A91E /* View */,
 				6A33C767207F30FA0029A91E /* Class */,
 			);
 			path = ApplePayViewController;
@@ -288,13 +349,6 @@
 				6A33C769207F310C0029A91E /* ApplePayViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		6A33C766207F30FA0029A91E /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		6A33C767207F30FA0029A91E /* Class */ = {
@@ -332,6 +386,24 @@
 			path = LZTipsView;
 			sourceTree = "<group>";
 		};
+		6A3DD4B9213CDF57009AF7A7 /* EncryptAndDecryptViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A3DD4BA213CDF66009AF7A7 /* EncryptAndDecryptViewController.h */,
+				6A3DD4BB213CDF66009AF7A7 /* EncryptAndDecryptViewController.m */,
+			);
+			path = EncryptAndDecryptViewController;
+			sourceTree = "<group>";
+		};
+		6A498AA220D8A39B0014BC03 /* LeftDeleteVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A498AA320D8A39B0014BC03 /* LeftDeleteViewController.h */,
+				6A498AA420D8A39B0014BC03 /* LeftDeleteViewController.m */,
+			);
+			path = LeftDeleteVC;
+			sourceTree = "<group>";
+		};
 		6A51178F2069E91800E50939 /* FocusViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,6 +431,25 @@
 				6ADBDBCD206B43CE00D18B07 /* FocuseViewTableViewCell.m */,
 			);
 			path = VIew;
+			sourceTree = "<group>";
+		};
+		6A5F69CC20CE19A800C890FD /* CustomButtonVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A5F69CD20CE19B800C890FD /* CustomButtonVC.h */,
+				6A5F69CE20CE19B800C890FD /* CustomButtonVC.m */,
+				6A6AE0E920D1162800E4A92C /* View */,
+			);
+			path = CustomButtonVC;
+			sourceTree = "<group>";
+		};
+		6A5F69D020CE22BE00C890FD /* ControlClass */ = {
+			isa = PBXGroup;
+			children = (
+				6A5F69D120CE22C500C890FD /* ControlClass.h */,
+				6A5F69D220CE22C500C890FD /* ControlClass.m */,
+			);
+			path = ControlClass;
 			sourceTree = "<group>";
 		};
 		6A6954E420B65CF1008CECFE /* ClicksViewController */ = {
@@ -389,6 +480,32 @@
 				6AAB3A4A20BFA1BD006DDC85 /* CharactersCollectionViewCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6A6AE0E920D1162800E4A92C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A6AE0F220D11B5B00E4A92C /* menuimages */,
+				6A6AE0EA20D1169100E4A92C /* LZMenuButton.h */,
+				6A6AE0EB20D1169100E4A92C /* LZMenuButton.m */,
+				6A6AE0ED20D116DF00E4A92C /* LZMenuButtonCell.h */,
+				6A6AE0EE20D116DF00E4A92C /* LZMenuButtonCell.m */,
+				6A6AE0EF20D116DF00E4A92C /* LZMenuButtonCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A6AE0F220D11B5B00E4A92C /* menuimages */ = {
+			isa = PBXGroup;
+			children = (
+				6A6AE0F320D11B5B00E4A92C /* plus.png */,
+				6A6AE0F420D11B5B00E4A92C /* fb-icon.png */,
+				6A6AE0F520D11B5B00E4A92C /* twitter-icon.png */,
+				6A6AE0F620D11B5B00E4A92C /* cross.png */,
+				6A6AE0F720D11B5B00E4A92C /* google-icon.png */,
+				6A6AE0F820D11B5B00E4A92C /* linkedin-icon.png */,
+			);
+			path = menuimages;
 			sourceTree = "<group>";
 		};
 		6A9975662068CC9000B512BC = {
@@ -449,6 +566,11 @@
 		6A9975BF2068F23100B512BC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6A3DD4B9213CDF57009AF7A7 /* EncryptAndDecryptViewController */,
+				6A0FD1B220F5DBD30014DD13 /* RandomviewController */,
+				6A27929D20E214B700C480EC /* PictureProcessingVC */,
+				6A498AA220D8A39B0014BC03 /* LeftDeleteVC */,
+				6A5F69CC20CE19A800C890FD /* CustomButtonVC */,
 				6A24318920C4DBE80042D9AE /* TableViewPropertyVC */,
 				6A6954E420B65CF1008CECFE /* ClicksViewController */,
 				6A20AE79209327B2006AF5AA /* MoveViewController */,
@@ -489,6 +611,7 @@
 		6A9975C22068F2B400B512BC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6A5F69D020CE22BE00C890FD /* ControlClass */,
 				6AAB3A5020BFDEFA006DDC85 /* FailedView */,
 				6AF7086E2086F0F9001FA681 /* TonePlayer */,
 				6A373BDB2074B461001E0936 /* LZTipsView */,
@@ -529,8 +652,8 @@
 		6A9975CB2068F2B400B512BC /* SystemMapViewScroller */ = {
 			isa = PBXGroup;
 			children = (
-				6A9975CC2068F2B400B512BC /* SystemMapViewScroller.m */,
 				6A9975CD2068F2B400B512BC /* SystemMapViewScroller.h */,
+				6A9975CC2068F2B400B512BC /* SystemMapViewScroller.m */,
 			);
 			path = SystemMapViewScroller;
 			sourceTree = "<group>";
@@ -590,7 +713,6 @@
 			isa = PBXGroup;
 			children = (
 				6A9D59BA2084A55100A170FA /* Controller */,
-				6A9D59BB2084A55100A170FA /* View */,
 			);
 			path = ImitateKeepViewController;
 			sourceTree = "<group>";
@@ -602,13 +724,6 @@
 				6A9D59C02084AABC00A170FA /* ImitateKeepViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		6A9D59BB2084A55100A170FA /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		6AAB3A4C20BFC3FF006DDC85 /* Model */ = {
@@ -845,8 +960,6 @@
 				6A99756B2068CC9000B512BC /* Sources */,
 				6A99756C2068CC9000B512BC /* Frameworks */,
 				6A99756D2068CC9000B512BC /* Resources */,
-				96DB3666B424A856E661338B /* [CP] Embed Pods Frameworks */,
-				5F75079DBC7C6DE65485A1AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -925,10 +1038,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A99757F2068CC9000B512BC /* LaunchScreen.storyboard in Resources */,
+				6A6AE0FB20D11B5B00E4A92C /* twitter-icon.png in Resources */,
 				6AF708752086FA56001FA681 /* kee_waitting_for_u.mp3 in Resources */,
+				6A6AE0F920D11B5B00E4A92C /* plus.png in Resources */,
+				6A6AE0FD20D11B5B00E4A92C /* google-icon.png in Resources */,
 				6A99757C2068CC9000B512BC /* Assets.xcassets in Resources */,
+				6A6AE0FE20D11B5B00E4A92C /* linkedin-icon.png in Resources */,
+				6A6AE0FA20D11B5B00E4A92C /* fb-icon.png in Resources */,
+				6A6AE0FC20D11B5B00E4A92C /* cross.png in Resources */,
+				6A0FD1BA20F5DCCD0014DD13 /* RandomviewController.xib in Resources */,
 				6A99757A2068CC9000B512BC /* Main.storyboard in Resources */,
+				6A6AE0F120D116DF00E4A92C /* LZMenuButtonCell.xib in Resources */,
 				6ADBDBDA206B4BB900D18B07 /* YQSweepCardItem.xib in Resources */,
+				6A2792A220E214C500C480EC /* PictureProcessingVC.xib in Resources */,
 				6ADBDBF8206B712A00D18B07 /* PickerViewController.xib in Resources */,
 				6ADBDBF2206B70F800D18B07 /* LZPickerView.xib in Resources */,
 			);
@@ -950,43 +1072,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Case-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5F75079DBC7C6DE65485A1AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Case/Pods-Case-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96DB3666B424A856E661338B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Case/Pods-Case-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1018,26 +1113,34 @@
 				6AAB3A4B20BFA1BD006DDC85 /* CharactersCollectionViewCell.m in Sources */,
 				6A9975CE2068F2B400B512BC /* ToolClass.m in Sources */,
 				6ADBDBD8206B4BB900D18B07 /* YQSweepCardItem.m in Sources */,
+				6A6AE0F020D116DF00E4A92C /* LZMenuButtonCell.m in Sources */,
 				6ADBDBE4206B533400D18B07 /* NewPagedFlowView.m in Sources */,
+				6A5F69D320CE22C500C890FD /* ControlClass.m in Sources */,
+				6A0FD1B920F5DCCD0014DD13 /* RandomviewController.m in Sources */,
 				6A20AE7C209327BE006AF5AA /* MoveViewController.m in Sources */,
 				6AD01AC7206CB9910070594B /* CardViewController.m in Sources */,
 				6AAB3A4F20BFC419006DDC85 /* CharactersModel.m in Sources */,
 				6AD01ABA206C89E70070594B /* PopoutClass.m in Sources */,
+				6A5F69CF20CE19B800C890FD /* CustomButtonVC.m in Sources */,
 				6ADBDBD9206B4BB900D18B07 /* MySelfCardCollectionViewCell.m in Sources */,
 				6ADBDBF3206B70F800D18B07 /* LZPickerView.m in Sources */,
 				6A9D59C12084AABC00A170FA /* ImitateKeepViewController.m in Sources */,
 				6AAB3A5520BFDEFA006DDC85 /* FailedView.m in Sources */,
 				6AAB3A4820BF9CBC006DDC85 /* CharactersView.m in Sources */,
+				6A6AE0EC20D1169100E4A92C /* LZMenuButton.m in Sources */,
+				6A3DD4BC213CDF66009AF7A7 /* EncryptAndDecryptViewController.m in Sources */,
 				6ACF647B207B561A00D2855D /* ScaleView.m in Sources */,
 				6AAB3A5620BFDEFA006DDC85 /* ErrorView.m in Sources */,
 				6AD68102206E135000C86A0F /* FrameClass.m in Sources */,
 				6A24318E20C4DC060042D9AE /* TableViewPropertyVC.m in Sources */,
+				6A2792A120E214C500C480EC /* PictureProcessingVC.m in Sources */,
 				6ADBDBCE206B43CE00D18B07 /* FocuseViewTableViewCell.m in Sources */,
 				6A9975E62068F62800B512BC /* JHCollectionReusableView.m in Sources */,
 				6ADBDBF7206B712A00D18B07 /* PickerViewController.m in Sources */,
 				6AF708712086F0F9001FA681 /* TonePlayerSimple.m in Sources */,
 				6ADBDBD7206B4BB900D18B07 /* YQSweepCardView.m in Sources */,
 				6ADBDBE3206B533400D18B07 /* PGIndexBannerSubiew.m in Sources */,
+				6A498AA520D8A39B0014BC03 /* LeftDeleteViewController.m in Sources */,
 				6AD680FE206E111300C86A0F /* LZBirthdayView.m in Sources */,
 				6A9975742068CC9000B512BC /* AppDelegate.m in Sources */,
 				6A33C76A207F310C0029A91E /* ApplePayViewController.m in Sources */,

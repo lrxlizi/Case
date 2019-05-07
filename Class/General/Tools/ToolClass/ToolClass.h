@@ -85,5 +85,17 @@
 //计算文本的高度
 + (float)getStringHeight:(NSString *)text andFont:(float)font andWidth:(float)width;
 
+/**
+ 字符串转base64
+ str string
+ return base64
+ */
++ (NSString *)stringEncrypt_base64:(NSString *)str;
+/**
+ base64 解密成string
+ base64Str 加密的字符串
+ return string
+ */
++(NSString *)base4Decrypt_string:(NSString *)base64Str;
 
 @end

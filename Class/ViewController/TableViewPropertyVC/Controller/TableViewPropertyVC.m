@@ -25,7 +25,7 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"beginEnd" style:(UIBarButtonItemStylePlain) target:self action:@selector(rightTarget)];
     
     [self createUI];
-    
+    [self writeCSVData];
 }
 
 - (void)createUI{
@@ -83,6 +83,45 @@
         }else{
             return 50;
         }
+}
+- (void)writeCSVData{
+    
+    NSString* sourcePaht = [self createFile];
+    NSLog(@"sourcePaht===%@",sourcePaht);
+    NSFileHandle* fileHandle = [NSFileHandle fileHandleForUpdatingAtPath:sourcePaht];
+    //将节点调到文件末尾
+    [fileHandle seekToEndOfFile];
+    
+    
+    for(int i=0;i<6000;i++){
+        NSString *str = @"某人的姓名,一个电话,一个地址,2017.02.20 11:30\n";
+        str = [NSString stringWithFormat:@"%d%@",i,str];
+        NSData *stringData = [str dataUsingEncoding:NSUTF8StringEncoding];
+        //追加写入数据
+        [fileHandle writeData:stringData];
+    }
+    
+    
+    [fileHandle closeFile];
+    
+}
+
+-(NSString*)createFile{
+    
+    NSFileManager * fileManager = [NSFileManager defaultManager];
+    NSArray* searchResult =  [fileManager URLsForDirectory:NSLibraryDirectory inDomains:NSUserDomainMask];
+    
+    NSLog(@"%@",searchResult);
+    
+    NSURL* documentPath = [searchResult firstObject];
+    NSString* newPath = [documentPath.path stringByAppendingPathComponent:@"Demo"];
+    if ([fileManager fileExistsAtPath:newPath] == false) {
+        [fileManager createDirectoryAtPath:newPath withIntermediateDirectories:YES attributes:nil error:nil];
+    }
+    NSString* filePath = [newPath stringByAppendingPathComponent:@"file.txt"];
+    [fileManager createFileAtPath:filePath contents:nil attributes:nil];
+    
+    return filePath;
 }
 
 

@@ -94,7 +94,7 @@
  */
 +(NSArray *)monaryKnow_left_right_bottomVIew_height:(UIView *)view bottomVIew:(UIView *)bView left:(CGFloat)l right:(CGFloat)r height:(CGFloat)h bottomVIewTop:(CGFloat)bt;
 
-/**
+/*
  17 left_width_bottomVIew_height
  */
 +(NSArray *)monaryKnow_left_width_bottomVIew_height:(UIView *)view bottomVIew:(UIView *)bView left:(CGFloat)l width:(CGFloat)w height:(CGFloat)h bottomVIewTop:(CGFloat)bt;

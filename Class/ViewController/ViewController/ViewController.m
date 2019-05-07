@@ -20,6 +20,12 @@
 #import "MoveViewController.h"
 #import "ClicksViewController.h"
 #import "TableViewPropertyVC.h"
+#import "CustomButtonVC.h"
+#import "LeftDeleteViewController.h"
+#import "PictureProcessingVC.h"
+#import "RandomviewController.h"
+#import "EncryptAndDecryptViewController.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -34,7 +40,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview+弹框",@"collectionVIew卡片",@"测试masonry",@"类测试",@"磁力计 - 仿系统的指南针",@"ApplePay",@"模仿",@"move",@"clicks",@"TableViewPropertyVC"];
+    self.contentArr           = @[@"仿苹果系统地图滑动",@"给collectionView每组设置不通的背景颜色",@"轮播卡片",@"pickerview+弹框",@"collectionVIew卡片",@"测试masonry",@"类测试",@"磁力计 - 仿系统的指南针",@"ApplePay",@"模仿",@"move",@"clicks",@"TableViewPropertyVC",@"btn",@"LEFTDELETE",@"PictureProcessingVC",@"RandomviewController",@"EncryptAndDecrypt"];
     
     UITableView *tableView     = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
     tableView.delegate         = self;
@@ -103,7 +109,23 @@
     }else if (indexPath.row == 12){
         TableViewPropertyVC *vc = [TableViewPropertyVC new];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 13){
+        CustomButtonVC *vc = [CustomButtonVC new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 14){
+        LeftDeleteViewController *vc = [LeftDeleteViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 15){
+        PictureProcessingVC *vc = [[PictureProcessingVC alloc]init];
+         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 16){
+        RandomviewController *vc = [[RandomviewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else{
+        EncryptAndDecryptViewController *vc = [[EncryptAndDecryptViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
+        
         
         
 }

@@ -310,8 +310,6 @@
     keyFrameAnim.removedOnCompletion = NO;
     keyFrameAnim.fillMode = kCAFillModeForwards;
     return keyFrameAnim;
-    
-    
 }
 
 //计算文本的宽度
@@ -327,6 +325,28 @@
     CGSize size = [text boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:dic context:nil].size;
     return size.height+1;
 }
+
+/**
+ 字符串转base64
+ return base64
+ */
++ (NSString *)stringEncrypt_base64:(NSString *)str{
+    
+    NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
+    return [data base64EncodedStringWithOptions:0];
+    
+}
+/**
+ base64 解密成string
+ return string
+ */
++(NSString *)base4Decrypt_string:(NSString *)base64Str{
+    
+    NSData *data = [[NSData alloc]initWithBase64EncodedString:base64Str options:0];
+   return [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+}
+
+
 
 
 @end
